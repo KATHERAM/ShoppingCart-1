@@ -98,7 +98,6 @@ This Project is created for understanding github, CI CD Pipeline enabling
           0 Error(s)
           
 ==============================================================
-#### Time Elapsed 00:00:48.99
 
 ###### DevOps CI/CD pipeline setup in Jenkins
 
