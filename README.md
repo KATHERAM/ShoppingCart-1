@@ -100,32 +100,27 @@ This Project is created for understanding github, CI CD Pipeline enabling
 ==============================================================
 #### Time Elapsed 00:00:48.99
 
-###### Devops Steps
-      Step 1:
-      Step 2:
-      Step 3:
-      Step 4:
-      Step 5:
-      Step 6:
+###### DevOps CI/CD pipeline setup in Jenkins
 
+      Step 1: Create a Free style proejct
+      
+      Step 2: Configure the Git URL under "Source Code Management" section
+      
+      Step 3: Configure the below commands in Jenkins freestyle job under "Build" section --> Execute Windows Batch Command
 
-#### Jenkins Job configuration
+                  echo WORKSPACE: %WORKSPACE%
 
-      Configure the below commands in Jenkins freestyle job under "Build" section --> Execute Windows Batch Command
+                  cd %WORKSPACE%/ShoppingCart
 
-      echo WORKSPACE: %WORKSPACE%
+                  dotnet -h
 
-      cd %WORKSPACE%/ShoppingCart
+                  dotnet clean 
 
-      dotnet -h
+                  dotnet build
 
-      dotnet clean
+                  dotnet publish
 
-      dotnet build
-
-      dotnet publish
-
-      dotnet pack
+                  dotnet pack
 
 
 ### ========= 15-05-2019 CI Process =================
