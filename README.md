@@ -49,7 +49,7 @@ This Project is created for understanding github, CI CD Pipeline enabling
       
 ==============================================================
 
-#### dotnet build command execution and result
+#### dotnet build commands execution and result
 
       Restore completed in 54.13 ms for ~\ShoppingCart\ShoppingCart\ShoppingCart.csproj.
       ShoppingCart -> ~\ShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.dll
@@ -98,15 +98,32 @@ This Project is created for understanding github, CI CD Pipeline enabling
           0 Error(s)
           
 ==============================================================
-#### Time Elapsed 00:00:48.99
 
-###### Devops Steps
-      Step 1:
-      Step 2:
-      Step 3:
-      Step 4:
-      Step 5:
-      Step 6:
+###### DevOps CI/CD pipeline setup in Jenkins
+
+      Step 1: Create a Free style proejct
+      
+      Step 2: Configure the Git URL under "Source Code Management" section
+      
+      Step 3: Configure the below commands in Jenkins freestyle job under "Build" section --> Execute Windows Batch Command
+
+                  echo WORKSPACE: %WORKSPACE%
+
+                  cd %WORKSPACE%/ShoppingCart
+
+                  dotnet -h
+
+                  dotnet clean 
+
+                  dotnet build
+
+                  dotnet publish
+
+                  dotnet pack
+                  
+                  dotnet run
+
+      Step 4:   Launch the URL localhost:5000 in any browser (if you used the command "dotnet" run in your build)       
+       
 
 ### ========= 15-05-2019 CI Process =================
-
