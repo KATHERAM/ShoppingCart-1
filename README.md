@@ -49,7 +49,7 @@ This Project is created for understanding github, CI CD Pipeline enabling
       
 ==============================================================
 
-#### dotnet build command execution and result
+#### dotnet build commands execution and result
 
       Restore completed in 54.13 ms for ~\ShoppingCart\ShoppingCart\ShoppingCart.csproj.
       ShoppingCart -> ~\ShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.dll
@@ -108,5 +108,24 @@ This Project is created for understanding github, CI CD Pipeline enabling
       Step 5:
       Step 6:
 
-### ========= 15-05-2019 CI Process =================
 
+#### Jenkins Job configuration
+
+      Configure the below commands in Jenkins freestyle job under "Build" section --> Execute Windows Batch Command
+
+      echo WORKSPACE: %WORKSPACE%
+
+      cd %WORKSPACE%/ShoppingCart
+
+      dotnet -h
+
+      dotnet clean
+
+      dotnet build
+
+      dotnet publish
+
+      dotnet pack
+
+
+### ========= 15-05-2019 CI Process =================
