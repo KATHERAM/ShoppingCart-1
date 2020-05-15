@@ -120,6 +120,10 @@ This Project is created for understanding github, CI CD Pipeline enabling
                   dotnet publish
 
                   dotnet pack
+                  
+                  dotnet run
 
+      Step 4:   Launch the URL localhost:5000 in any browser (if you used the command "dotnet" run in your build)       
+       
 
 ### ========= 15-05-2019 CI Process =================
