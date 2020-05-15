@@ -41,7 +41,7 @@ MSBuild - build automation
          info: Microsoft.Hosting.Lifetime[0]
             Hosting environment: Development
          info: Microsoft.Hosting.Lifetime[0]
-            Content root path: C:\Users\PRAJAPATI\Source\Repos\ShoppingCart\ShoppingCart
+            Content root path: ~\ShoppingCart\ShoppingCart
 8. local
 
 dotnet build command execution and result
