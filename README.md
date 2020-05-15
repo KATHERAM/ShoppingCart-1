@@ -28,16 +28,28 @@ MSBuild - build automation
 2. launch the command prompt
 3. type dotnet build
 4. hit enter
-5. build will run succesfully
+5. build will run succesfully [dotnet build command execution and result] 
 6. package will be created in bin\Debug\netcoreapp3.1 folder
+7. type dotnet run
+8. hit enter, below result will be showned and port will be opend and will listiening on that for launchin the application
+         ~\ShoppingCart\ShoppingCart>dotnet run
+         
+         info: Microsoft.Hosting.Lifetime[0]
+            Now listening on: http://localhost:5000
+         info: Microsoft.Hosting.Lifetime[0]
+            Application started. Press Ctrl+C to shut down.
+         info: Microsoft.Hosting.Lifetime[0]
+            Hosting environment: Development
+         info: Microsoft.Hosting.Lifetime[0]
+            Content root path: C:\Users\PRAJAPATI\Source\Repos\ShoppingCart\ShoppingCart
+8. local
 
-Sample execution dotnet build command execution and result
+dotnet build command execution and result
 ====================================================================================================================
-   **  Restore completed in 54.13 ms for ~\ShoppingCart\ShoppingCart\ShoppingCart.csproj.
+Restore completed in 54.13 ms for ~\ShoppingCart\ShoppingCart\ShoppingCart.csproj.
+ShoppingCart -> ~\ShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.dll
+ShoppingCart -> ~\ShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.Views.dll
 
-   **  ShoppingCart -> ~\ShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.dll
-
-   **  ShoppingCart -> ~\ShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.Views.dll
 ====================================================================================================================
 ~\ShoppingCart\ShoppingCart>dotnet build
 
