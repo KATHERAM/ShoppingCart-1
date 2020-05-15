@@ -16,17 +16,17 @@ Step 6: Click Publish to GitHub - Check in Github Repository new repository will
 # CI CD Process
 Based on the consideration of the firm CI CD can be defined based on their needs.
 Continuous Integration Can be considerd one of the bellow points based on firm needs.
-1. Master branch check in, build the project. [ As of now this process is considered as CI ] 15-05-2019
+1. Master branch check in, build the project. [ As of now this process is considered as CI ] #15-05-2019
 2. Master branch check in, build the project, run the test cases successfully.
 3. Master branch check in, build the project, run the test cases successfully, run the integration testing successfully
 4. Master branch check in, build the project, run the test cases successfully, run the integration testing successfully, 
 # 
-# # # # # 15-05-2019 CI Process
-# MSBuild - build automation
+# 15-05-2019 CI Process
+MSBuild - build automation
 
 
-# Devops Steps
+Devops Steps
 
 
-# # # # # 15-05-2019 CI Process
+# 15-05-2019 CI Process
 
