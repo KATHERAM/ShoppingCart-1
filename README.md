@@ -100,13 +100,13 @@ This Project is created for understanding github, CI CD Pipeline enabling
 ==============================================================
 #### Time Elapsed 00:00:48.99
 
-Devops Steps
-Step 1:
-Step 2:
-Step 3:
-Step 4:
-Step 5:
-Step 6:
+###### Devops Steps
+      Step 1:
+      Step 2:
+      Step 3:
+      Step 4:
+      Step 5:
+      Step 6:
 
 ### ========= 15-05-2019 CI Process =================
 
