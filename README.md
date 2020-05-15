@@ -45,12 +45,13 @@ MSBuild - build automation
 8. local
 
 dotnet build command execution and result
-====================================================================================================================
+==============================================================
+
 Restore completed in 54.13 ms for ~\ShoppingCart\ShoppingCart\ShoppingCart.csproj.
 ShoppingCart -> ~\ShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.dll
 ShoppingCart -> ~\ShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.Views.dll
 
-====================================================================================================================
+==============================================================
 ~\ShoppingCart\ShoppingCart>dotnet build
 
 Welcome to .NET Core 3.1!
@@ -83,7 +84,7 @@ Build succeeded.
     0 Error(s)
 
 Time Elapsed 00:00:48.99
-====================================================================================================================
+==============================================================
 
 Devops Steps
 Step 1:
