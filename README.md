@@ -29,14 +29,15 @@ MSBuild - build automation
 3. type dotnet build
 4. hit enter
 5. build will run succesfully
+6. package will be created in bin\Debug\netcoreapp3.1 folder
 
 Sample execution dotnet build command execution and result
 ====================================================================================================================
+   **  Restore completed in 54.13 ms for ~\ShoppingCart\ShoppingCart\ShoppingCart.csproj.
 
-**  Restore completed in 54.13 ms for ~\ShoppingCart\ShoppingCart\ShoppingCart.csproj.
-**  ShoppingCart -> ~\ShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.dll
-**  ShoppingCart -> ~\ShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.Views.dll
+   **  ShoppingCart -> ~\ShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.dll
 
+   **  ShoppingCart -> ~\ShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.Views.dll
 ====================================================================================================================
 ~\ShoppingCart\ShoppingCart>dotnet build
 
@@ -71,7 +72,6 @@ Build succeeded.
 
 Time Elapsed 00:00:48.99
 ====================================================================================================================
-
 
 Devops Steps
 Step 1:
