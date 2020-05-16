@@ -61,7 +61,7 @@ This Project is created for understanding github, CI CD Pipeline enabling
             Ex: dotnet publish --output C:\inetpub\wwwroot\ShoppingCart
             
       9. iis refresh:
-            iisreset /noforce was not working properly in the system so first stop the iis and start again to refresh iis.
+            if "iisreset /noforce" not works properly in the system then try to stop it and start it using below commands ref:9.1 & 9.2.
             
             9.1. iisreset /stop
                   Ex:   C:\>iisreset /stop
