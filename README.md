@@ -28,10 +28,8 @@ This Project is created for understanding github, CI CD Pipeline enabling
       MSBuild - build automation
       1. Choose the project folder contains *.csproj 
          Ex: Go to ~\ShoppingCart\ShoppingCart contains ShoppingCart.csproj
-      2. launch the command prompt
-      3. type dotnet build
-      4. hit enter
-      5. build will run succesfully and we can see the below output in command prompt.
+      2. launch the command prompt and run the comamnd - dotnet build
+      3. "dotnet build" - build will run succesfully and we can see the below output in command prompt.
             Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Core
             Copyright (C) Microsoft Corporation. All rights reserved.
 
@@ -42,8 +40,8 @@ This Project is created for understanding github, CI CD Pipeline enabling
             Build succeeded.
                 0 Warning(s)
                 0 Error(s)
-      6. package will be created in bin\Debug\netcoreapp3.1 folder
-      7. "dotnet run" - Run the application locally
+      4. package will be created in bin\Debug\netcoreapp3.1 folder
+      5. "dotnet run" - Run the application locally
             Ex: Below result will be showned in command prompt, application will be listening on the port
                
                ~\ShoppingCart\ShoppingCart>dotnet run
@@ -57,19 +55,19 @@ This Project is created for understanding github, CI CD Pipeline enabling
                info: Microsoft.Hosting.Lifetime[0]
                   Content root path: ~\ShoppingCart\ShoppingCart
             
-      8. "dotnet publish" - publish the application.
+      6. "dotnet publish" - publish the application.
             Ex: dotnet publish --output C:\inetpub\wwwroot\ShoppingCart
             
-      9. iis refresh:
-            if "iisreset /noforce" not works properly in the system then try to stop it and start it using below commands ref:9.1 & 9.2.
+      7. iis refresh:
+            if "iisreset /noforce" not works properly in the system then try to stop it and start it using below commands ref:7.1 & 7.2.
             
-            9.1. iisreset /stop
+            7.1. iisreset /stop
                   Ex:   C:\>iisreset /stop
                   
                         Attempting stop...
                         Internet services successfully stopped\
                         
-            9.2. net start w3svc
+            7.2. net start w3svc
                   Ex:   C:\>net start w3svc
                         The World Wide Web Publishing Service service is starting.
                         The World Wide Web Publishing Service service was started successfully.
