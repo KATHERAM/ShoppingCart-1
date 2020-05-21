@@ -28,6 +28,9 @@ This Project is created for understanding github, CI CD Pipeline enabling
       
       
       commit
+      
+      
+      commit
       MSBuild - build automation
       1. Choose the project folder contains *.csproj 
          Ex: Go to ~\ShoppingCart\ShoppingCart contains ShoppingCart.csproj
