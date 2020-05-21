@@ -26,6 +26,7 @@ This Project is created for understanding github, CI CD Pipeline enabling
 ### ========= 15-05-2019 CI Process =================
       [ As of now this process is considered as CI ]  And Deploy the publish items to iis
      
+     
       MSBuild - build automation
       1. Choose the project folder contains *.csproj 
          Ex: Go to ~\ShoppingCart\ShoppingCart contains ShoppingCart.csproj
